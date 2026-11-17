@@ -3,12 +3,12 @@ name = "SigmaOS-arch-file"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "arch-file component"
+description = "File manager for SigmaOS inspired by Arch Linux"
 upstream = []
 
 [contract]
 provides = ["component"]
-depends_on = []
+depends_on = ["SigmaOS-filesystem", "SigmaOS-system"]
 
 [maturity]
 status = "Scaffold"
